@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Md. Ariful I.</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <div class="main-container">
+    <h1>welcome</h1>
+    <div class="intro">
+      <h2 class="intro__title">Myself, Md. Ariful Islam</h2>
+      <p class="intro__sub-title">Front-End Developer | Self-taught Programmer <br> Learner</p>
+    </div>
+    <div class="help" id="help">
+      <p>To learn about me, type a comment below</p>
+      <ul class="command-lists">
+        <li>Home</li>
+        <li>Contact</li>
+        <li>About</li>
+        <li>Skills</li>
+        <li>Help</li>
+      </ul>
+    </div>
+    <div id="terminal">
+      <div class="terminal__line">
+        <div class="terminal__line__caption">
+          <span>root@mdarfiulislam.com:~$</span>
+        </div>
+        <div class="terminal__line__input">
+          <input type="text" name="command" id="command" autofocus autocomplete="off">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- // about -->
+  <div class="terminal__content" style="display: none;" id="about">
+    <h2 class="intro__title">I am Md. Ariful Islam</h2>
+    <p class="intro__sub-title">Nothing more to say about me</p>
+  </div>
+
+  <!-- contact -->
+  <div class="contact" style="display: none;" id="contact">
+    <p>Thanks That You Want To Contact With Me.</p>
+
+    <div class="contact-list">
+      <ul>
+        <li>Facebook: <a href="#">https://www.facebook.com/arif1205</a></li>
+        <li>Github: <a href="#">https://www.github.com/arif_1205</a></li>
+        <li>Youtube: <a href="#">https://www.youtube.com/achillesarif</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- // skill  -->
+  <div class="skill" style="display: none" id="skill">
+    <p>Currently I Have Only Copy-Pasting Skill :( </p>
+  </div>
+
+  <div class="wrong-command" style="display: none;" id="wrong">
+    <p>Invalid Command. Please type help to get all the valid commands</p>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>
