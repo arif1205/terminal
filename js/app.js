@@ -59,7 +59,7 @@ function terminalOpen(e) {
       terminalCommand(about);
     } else if (value == 'help') {
       terminalCommand(help);
-    } else if (value == 'home') {
+    } else if (value == 'home' || value == 'clear') {
       // all terminal remove expect last 
       let terminals = [...document.querySelectorAll('#terminal')];
       while(1) {
